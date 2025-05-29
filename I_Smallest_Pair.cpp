@@ -23,8 +23,7 @@ int main()
         {
             for (int j = i + 1; j < n; j++)
             {
-                int oper = a[i] + a[j] + j - i;
-                val = min(val, oper);
+                val = min(val, a[i] + a[j] + j - i);
             }
         }
 
